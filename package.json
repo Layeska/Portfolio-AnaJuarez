@@ -12,10 +12,12 @@
     "aos": "^2.3.4",
     "i18next-browser-languagedetector": "^7.0.1",
     "i18next-http-backend": "^2.0.1",
+    "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^12.0.0",
     "react-router-dom": "^6.4.3",
+    "react-typewriter-effect": "^1.1.0",
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
