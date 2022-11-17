@@ -35,7 +35,7 @@ const Home = () => {
                         <span>{t('principal.bt-contact')}</span></a></button>
                 </div>
             </div>
-            <div className='imageHome' data-aos='fade-up' data-aos-easing='ease-out-cubic' data-aos-duration='1000'>
+            <div className='imageHome' >
                 <img src='https://i.postimg.cc/SKk2PsL1/6199075-3156811-removebg-preview.png' alt='image'/>
             </div>
         </div>

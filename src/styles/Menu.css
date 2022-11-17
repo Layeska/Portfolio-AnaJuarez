@@ -209,7 +209,7 @@ html[data-theme='dark'] { background: rgb(119, 117, 117,1); }
 
 @media screen and (max-width: 360px){
 	.assets {
-		margin-top: 3%;
+		margin-top: 4%;
 	}
 	.information {
 		order: 2;
@@ -235,12 +235,14 @@ html[data-theme='dark'] { background: rgb(119, 117, 117,1); }
 		margin-top: 5% !important;
 	}
 
+	.informationDown p {
+		font-size: 1.2rem;
+	}
+
 	.imageHome {
 		/*background: gold;*/
 		margin-top: 2% !important;
 	}
-
-	
 }
 
 
