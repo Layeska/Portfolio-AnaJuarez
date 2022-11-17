@@ -207,27 +207,58 @@ html[data-theme='dark'] { background: rgb(119, 117, 117,1); }
     display: none;
 }
 
+@media screen and (max-width: 360px){
+	.information {
+		order: 2;
+		width: 80% !important;
+		margin-top: 0% !important;
+	}
 
-@media screen and (min-width: 350px) and (max-width: 450px) {
-	.containerHome {
-		background: gold;
+	.informationPrincipal {
+		/*background: salmon;*/
+		flex-direction: column;
+		align-items: center;
+		height: 100% !important;
+		padding: 10% 0%;
 	}
 
 	.informationPrincipal p {
-		/*background: hotpink;*/
-		font-size: 3rem !important; 
+		/*background: darkcyan;*/
+		margin-bottom: 2%;
 	}
 
-	.informationPrincipal .react-typewriter-text {
+	.informationDown {
+		/*background: palevioletred;*/
+		margin-top: 5% !important;
+	}
+}
+
+
+
+@media screen and (min-width: 350px) and (max-width: 450px) {
+	/*.containerHome {
+		background: gold;
+	}*/
+
+	.informationPrincipal {
+		height: 25% !important;
+	}
+	.informationPrincipal p {
+		/*background: hotpink;*/
+		font-size: 3rem !important; 
+		margin-top: -2% !important;
+	}
+
+	.informationPrincipal .Typewriter__wrapper {
 		/*background: goldenrod;*/
 		font-size: 2.4rem !important;
-		margin-top: 0.5rem;
 	}
 
 	.buttons .btn-contact {
 		width: 50%;
 	}
-
+	
+	
 
 	.buttons .btn-contact::after {
 		left: -15% !important;
@@ -382,7 +413,7 @@ html[data-theme='dark'] { background: rgb(119, 117, 117,1); }
 	}
 
 	.information {
-		/*background: gold;*/
+		/*background: rgb(45, 42, 25);*/
 		order: 2;
 		width: 80% !important;
 		height: 50%;
