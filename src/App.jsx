@@ -11,6 +11,7 @@ import Menu from './components/Menu'
 
 import './App.css'
 import './styles/Menu.css'
+import './styles/Home.css'
 
 function App() {
   return (
