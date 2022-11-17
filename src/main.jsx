@@ -5,6 +5,7 @@ import i18next from "i18next"
 
 import App from './App'
 import './index.css'
+import 'normalize.css'
 
 import global_es from '../src/translations/es/global.json'
 import global_en from '../src/translations/en/global.json'
