@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+
 import ChangeLang from './ChangeLang'
+import ChangeTheme from './ChangeTheme'
 
 const Menu = () => {
     const [t] = useTranslation('global')
@@ -9,6 +11,7 @@ const Menu = () => {
     return (
         <>
             <div className='assets'>
+                <ChangeTheme/>
                 <ChangeLang/>
             </div>
             <div id='menuHamburger'>
@@ -71,8 +74,14 @@ const Menu = () => {
                                     {t('header.portfolio')}
                                 </Link>
                             </li>
+                            <li>
+                                <Link to={'/contact'} className='active'>
+                                    <span className='react'></span>
+                                    <span className='circle'></span>
+                                    {t('header.contactMe')}
+                                </Link>
+                            </li>
                         </ul>
-                        
                     </nav>
                     <div className='footer'> <footer>  Copyright &copy; 2022 | Ana Juarez ♥ </footer> </div>
                 </header>
