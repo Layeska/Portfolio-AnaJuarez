@@ -1,0 +1,9 @@
+{
+    "header": {
+        "home": "Home",
+        "about-me": "About Me",
+        "skills": "Skills",
+        "portfolio": "Portfolio",
+        "contactMe": "Contact Me"
+    }
+}
