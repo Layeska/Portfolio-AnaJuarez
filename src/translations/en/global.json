@@ -5,5 +5,11 @@
         "skills": "Skills",
         "portfolio": "Portfolio",
         "contactMe": "Contact Me"
+    },
+    "principal": {
+        "I-am": "I'm",
+        "introduction": "I'm a web developer with troubleshooting skills, self-taught with experience in React js projects",
+        "bt-download": "Download CV",
+        "bt-contact": "Contact Me"
     }
 }

@@ -5,5 +5,11 @@
         "skills": "Habilidades",
         "portfolio": "Portafolio",
         "contactMe": "Contáctame"
+    },
+    "principal": {
+        "I-am": "Soy",
+        "introduction": "Soy una desarrolladora web con habilidades de solución de problemas, autodidacta con experiencia en proyectos React js",
+        "bt-download": "Descargar CV",
+        "bt-contact": "Contáctame"
     }
 }
