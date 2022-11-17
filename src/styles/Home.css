@@ -40,7 +40,7 @@
     text-align: center;
 }
 
-.informationPrincipal .react-typewriter-text {
+.informationPrincipal .Typewriter__wrapper {
     /*background: gold;*/
     font-size: 4.5rem;
     color: #FF4F5A;
