@@ -208,6 +208,9 @@ html[data-theme='dark'] { background: rgb(119, 117, 117,1); }
 }
 
 @media screen and (max-width: 360px){
+	.assets {
+		margin-top: 3%;
+	}
 	.information {
 		order: 2;
 		width: 80% !important;
@@ -231,6 +234,13 @@ html[data-theme='dark'] { background: rgb(119, 117, 117,1); }
 		/*background: palevioletred;*/
 		margin-top: 5% !important;
 	}
+
+	.imageHome {
+		/*background: gold;*/
+		margin-top: 2% !important;
+	}
+
+	
 }
 
 
