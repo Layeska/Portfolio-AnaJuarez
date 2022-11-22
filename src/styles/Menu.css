@@ -514,22 +514,47 @@ body { font-family: 'Poppins', sans-serif; }
 	.menuHamburger ul li a:hover { color: rgba(223, 220, 220, 0.4); }
 
     .containerHome {
-        background: rgb(229, 126, 52);
+        /*background: rgb(229, 126, 52);*/
         width: 100% !important;
         margin-left: 0% !important;
     }
 }
 
+@media screen and (max-width: 800px) {
+   /* .containerHome {
+        background: gold;
+    }*/
+
+    .imageHome {
+        width: 40% !important;
+    }
+}
+
+@media screen and (max-width: 723px) {
+    /*.containerHome {
+        background: rgb(115, 107, 64);
+    }*/
+
+    .imageHome {
+        width: 42% !important;
+        margin-left: -3%;
+    }
+}
+
+
+
 @media screen and (max-width: 670px) {
     .containerHome {
-        background: skyblue;
+        /*background: hotpink;*/
+        width: 100vh !important;
+        margin:auto !important;
         flex-direction: column;
         align-items: center;
     }
 
     .imageHome {
        /* background: ghostwhite;*/
-        width: 40% !important;
+        width: 45% !important;
         align-content: center;
         order: 1;
     }
@@ -540,7 +565,6 @@ body { font-family: 'Poppins', sans-serif; }
 
     .information {
         order: 2;
-        /*background: gold;*/
         width: 90% !important;
         height: 40%;
     }
@@ -551,7 +575,7 @@ body { font-family: 'Poppins', sans-serif; }
 
     .informationDown {
        /* background: gray;*/
-        margin-top: 1% !important;
+        margin-top: 2% !important;
     }
 
     .buttons {
@@ -560,8 +584,53 @@ body { font-family: 'Poppins', sans-serif; }
         width: 85% !important;
     }
 
-
     .buttons .btn-contact::after {
-        margin-top: -15% !important;
+        margin-top: -10% !important;
+    }
+}
+
+@media screen and (max-width: 583px) {
+    .imageHome {
+        margin-left: -5%;
+        width: 52% !important;
+    }
+
+    .containerHome {
+        width: 106% !important;
+        height: 100vh !important;
+        /*background: rgb(114, 186, 114);*/
+    }
+}
+
+@media screen and (max-width: 512px) {
+    /*.containerHome {
+        background: slateblue;
+    }*/
+
+    .informationPrincipal p { font-size: 3.5rem !important; }
+
+    .informationPrincipal .Typewriter__wrapper {
+        font-size: 3.1rem !important;
+    }
+
+    .imageHome { width: 50% !important; }
+}
+
+@media screen and (max-width: 476px) {
+    .buttons .btn-contact::after {
+        margin-top: -1% !important;
+    }
+}
+@media screen and (max-width: 414px) {
+    .buttons .btn-contact::after {
+        margin-top: 30% !important;
+    }
+
+}
+
+
+@media screen and (max-width: 392px) {
+    .buttons .btn-contact::after {
+        margin-top: 20% !important;
     }
 }
