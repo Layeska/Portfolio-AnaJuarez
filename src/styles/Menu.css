@@ -521,7 +521,7 @@ body { font-family: 'Poppins', sans-serif; }
 }
 
 @media screen and (max-width: 800px) {
-   /* .containerHome {
+    /*.containerHome {
         background: gold;
     }*/
 
@@ -555,10 +555,9 @@ body { font-family: 'Poppins', sans-serif; }
 
     .containerHome {
         /*background: hotpink;*/
-        width: 100% !important;
-        margin-left: 0% !important;
         flex-direction: column;
         align-items: center;
+        margin-left: 2% !important;
     }
 
     .imageHome {
