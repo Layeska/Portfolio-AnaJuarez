@@ -97,198 +97,191 @@ body { font-family: 'Poppins', sans-serif; }
 	border: 1px solid rgba(28, 46, 53,0.5);
 }
 
-
-@media screen and (max-width: 1415px) {
-    hr { display: none;}
-
-    .footer {
-        padding: 0% 5%;
-    }
-
-    .imageProfile {
-        background: #FF4F5A;
-    }
-
-    .informationPrincipal  {
-        width: 120% !important;
-        height: 11% !important;
-    }
-
-    .buttons .btn-contact::after {
-        margin-top: 5%;
-    }
+@media screen and (max-width: 1400px) {
+    /*.containerHome {
+        background: palevioletred;
+    }*/
 }
 
-@media screen and (max-width: 1255px) {
-    .imageProfile {
-        background: hotpink;
-    }
+@media screen and (max-width: 1309px) {
+   /* .containerHome {
+        background: palegreen;
+    }*/
 
-    .menuExtend {
-        width: 22%;
-    }
+    .socialMedia li a  i { font-size: 140% !important; }
 
-    .socialMedia ul {
-        margin-left: -5%;
-    } 
+    .socialMedia ul { margin-left: -5%; }
 
+    .footer { font-size: 0.8rem !important; }
+}
+
+@media screen and (max-width: 1280px) {
     /*.containerHome {
         background: lightblue;
     }*/
 
-    /*.information {
-        background: goldenrod;
-    }*/
-    
+    .imageHome img { margin-left: 20%; }
 
-    .informationPrincipal {
-      /*  background: seagreen;*/
-        flex-direction: column;
-        height: 30% !important;
-        align-items: center;
+    .informationPrincipal { width: 128% !important; }
+
+    .buttons .btn-contact::after { margin-top: 9%; }
+}
+
+@media screen and (max-width: 1256px) {
+    hr { display: none; }
+
+    /*.containerHome {
+        background: gold;
+    }*/
+}
+
+@media screen and (max-width: 1142px) {
+    .listMenu li { margin-left: -18%; }
+
+    .menuExtend .listMenu li a  { font-size: 1rem !important; }
+
+    .socialMedia li a i { font-size: 130% !important; }
+
+    .informationDown {
+       /* background: lavenderblush;*/
+        font-size: 1rem !important;
     }
 
     .informationPrincipal p {
-        /*background: red;*/
-        font-size: 4rem !important;
-        margin-bottom: 2.5%;
+        font-size: 3.8rem !important;
+        margin-top: 0% !important;
     }
 
     .informationPrincipal .Typewriter__wrapper {
-        /*background: ghostwhite;*/
-        font-size: 4.2rem !important;
-    }
-
-    .informationDown {
-        font-size: 1.4rem !important;
-    }
-
-    .buttons .btn-contact::after {
-        margin-top: 10%;
-    }
-
-    .imageHome img{
-        width: 100% !important;
-    }
-
-    .informationDown {
-        margin-top: -14% !important;
-    }
-}
-
-@media screen and (max-width: 1127px) {
-    .imageProfile {
-        background: rgb(65, 45, 55);
-    }
-
-    .listMenu li a {
-        font-size: 1.2rem !important;
-    }
-
-    .buttons .btn-contact::after {
-        margin-top: 14%;
-    }
-
-    .buttons .btn-contact {
-        height: 200%;
-    }
-
-    .buttons .btn-contact::after {
-        margin-top: -5% !important;
-    }
-}
-
-@media screen and (max-width: 1028px) {
-    .menuExtend {
-        width: 25%;
-    }
-
-    .imageProfile img {
-        width: 70% !important;
-        height: 55%;
-    }
-
-    .listMenu {
-        margin-left: -3.5% !important;
-    }
-
-    .information {
-        /*background: palevioletred;*/
-        margin-top: -12%;
-    }
-    .informationPrincipal {
-        /*background: gold;*/
-        width: 100% !important;
-    }
-    
-    .informationPrincipal .Typewriter__wrapper {
+       /* background: lawngreen;*/
         font-size: 4rem !important;
     }
 
-    .informationDown p {
-       /* background: gold;*/
-        padding: 0% 10%;
-        font-size: 1.3rem;
-        margin-top: 0%;
-    }
-
-    .buttons .btn-contact::after {
-        margin-top: 30%;
-    }
-
-    .buttons {
-   /* background: gray;*/
-        height: 5% !important;
-    }
-    .buttons .btn-contact {
-        width: 34%;
-    }
+    .buttons .btn-contact::after  { margin-top: 10%; }
 
     .imageHome img {
-        width: 120% !important;
-        height: 50% !important;
+        width: 95% !important;
+        height: 60% !important;
     }
 }
 
-@media screen and (max-width: 1008px) {
+@media screen and (max-width: 1029px) {
+    /*.containerHome {
+        background: rgb(144, 131, 130);
+    }*/
+    .menuExtend { width: 21.5%; }
 
-    .containerHome {
-        /*background: paleturquoise;*/
-        flex-direction: column;
-        width: 72% !important;
-        margin-left: 27% !important;
+    .informationPrincipal .Typewriter__wrapper {
+        font-size: 3.8rem !important;
     }
 
-    .information {
-        /*background: lightgreen;*/
-        width: 90% !important;
-        height: 53%;
-        order: 1;
-    }
+    .informationDown p { font-size: 0.9rem; }
 
-    /*.informationPrincipal {
-        background: palegoldenrod;
-        
+    .imageHome img { margin-left: 5%; }
+}
+
+@media screen and (max-width: 981px) {
+    /*.containerHome {
+        background: darkkhaki;
     }*/
 
-    .informationDown {
-       /* background: gold;*/
+    .socialMedia li a i { font-size: 1.26rem !important; }
+
+    .imageProfile img {
+        height: 70%;
+        width: 70%;
+    }
+    .buttons button {   font-size: 0.65rem !important; }
+}
+
+
+@media screen and (max-width: 986px) {
+    /*.containerHome {
+        background: slateblue;
+    }*/
+
+    .informationPrincipal .Typewriter__wrapper { font-size: 3.5rem !important; }
+
+    .imageHome img { margin-left: 20%; }
+
+    .buttons { height: 6.5% !important; width: 115% !important; }
+}
+
+@media screen and (max-width: 924px) {
+    /*.containerHome {
+        background: green;
+    }*/
+
+    .imageProfile img{
+        width: 65%;
+        height: 64%;
+    }
+
+    .socialMedia li a i { font-size: 1.1rem !important; }
+
+    .menuExtend .listMenu li a {
+        font-size: 0.9rem !important;
+    }
+
+    .circle {
+        width: 9px !important;
+        height: 9px !important;
         margin-top: 1% !important;
     }
 
-    .imageHome {
-       /* background: gray;*/
-        width: 90% !important;
-        height: 50%;
-        margin-bottom: -10%;
+    .react { margin-top: 4% !important; }
+    
+    .informationPrincipal {
+        flex-direction: column;
+        align-items: center;
+        height: 25% !important;
+       /* background: gold;*/
     }
 
-    .imageHome img {
-        width: 70% !important;
-        height: 80% !important;
-    }
-
+    .informationPrincipal p { margin-bottom: -3%; }
 }
+
+@media screen  and (min-height: 1360px) {
+    .containerHome {
+       /* background: rgb(236, 27, 97);*/
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menuExtend { width: 27%; }
+
+    .imageProfile img {
+        width: 80%;
+        height: 60%;
+    }
+    
+    .socialMedia { font-size: 1.4rem; }
+
+    .menuExtend .listMenu li a { font-size: 1.4rem !important; }
+
+    .information {
+        width: 75% !important;
+        height: 36%;
+        order: 2;
+        margin-top: -18%;
+    }
+
+    .imageHome {
+        order: 1;
+        width: 65% !important;
+        height: 50%;
+        margin-top: -25%;
+    }
+
+    .informationPrincipal { margin-top: -35%; }
+
+    .informationDown p {
+        margin-top: 5%;
+        font-size: 1.5rem;
+    }
+
+    .buttons { height: 10% !important; }
+} 
 
 .socialMedia {
    /* background: palegreen;*/
@@ -344,7 +337,7 @@ body { font-family: 'Poppins', sans-serif; }
     color: rgba(255, 255, 255,0.6); /*#242020;*/
     text-decoration: none;
     display: flex;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
     text-transform: capitalize;
     margin-top: 20px;
@@ -519,4 +512,56 @@ body { font-family: 'Poppins', sans-serif; }
 	} 
 
 	.menuHamburger ul li a:hover { color: rgba(223, 220, 220, 0.4); }
+
+    .containerHome {
+        background: rgb(229, 126, 52);
+        width: 100% !important;
+        margin-left: 0% !important;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .containerHome {
+        background: skyblue;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imageHome {
+       /* background: ghostwhite;*/
+        width: 40% !important;
+        align-content: center;
+        order: 1;
+    }
+
+    .imageHome img {
+        height: 95% !important;
+    }
+
+    .information {
+        order: 2;
+        /*background: gold;*/
+        width: 90% !important;
+        height: 40%;
+    }
+
+    .informationPrincipal {
+        height: 40% !important;
+    }
+
+    .informationDown {
+       /* background: gray;*/
+        margin-top: 1% !important;
+    }
+
+    .buttons {
+        margin-top: 2%;
+        height: 14% !important;
+        width: 85% !important;
+    }
+
+
+    .buttons .btn-contact::after {
+        margin-top: -15% !important;
+    }
 }
