@@ -401,7 +401,7 @@ body { font-family: 'Poppins', sans-serif; }
 
     .menuExtend { display: none; }
 
-    #menuHamburger { display: flex; background: gold; }
+    #menuHamburger { display: flex; }
 
     #nav-btn {
 		cursor: pointer;
@@ -544,10 +544,19 @@ body { font-family: 'Poppins', sans-serif; }
 
 
 @media screen and (max-width: 670px) {
+    /*.assets {
+        background: saddlebrown;
+    }*/
+
+    .assets #nav-btn, label {
+        margin-top: -2%;
+        margin-right: -10% !important;
+    }
+
     .containerHome {
         /*background: hotpink;*/
-        width: 100vh !important;
-        margin:auto !important;
+        width: 100% !important;
+        margin-left: 0% !important;
         flex-direction: column;
         align-items: center;
     }
