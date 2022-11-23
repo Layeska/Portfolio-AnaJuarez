@@ -104,7 +104,7 @@ body { font-family: 'Poppins', sans-serif; }
 }
 
 @media screen and (max-width: 1309px) {
-   /* .containerHome {
+    /*.containerHome {
         background: palegreen;
     }*/
 
@@ -117,14 +117,14 @@ body { font-family: 'Poppins', sans-serif; }
 
 @media screen and (max-width: 1280px) {
     /*.containerHome {
-        background: lightblue;
+        background: rgb(159, 185, 194);
     }*/
 
     .imageHome img { margin-left: 20%; }
 
     .informationPrincipal { width: 128% !important; }
 
-    .buttons .btn-contact::after { margin-top: 9%; }
+    .buttons .btn-contact::after { margin-top: 1%; }
 }
 
 @media screen and (max-width: 1256px) {
@@ -243,7 +243,7 @@ body { font-family: 'Poppins', sans-serif; }
 
 @media screen  and (min-height: 1360px) {
     .containerHome {
-       /* background: rgb(236, 27, 97);*/
+        /*background: rgb(236, 27, 97);*/
         flex-direction: column;
         align-items: center;
     }
@@ -544,17 +544,14 @@ body { font-family: 'Poppins', sans-serif; }
 
 
 @media screen and (max-width: 670px) {
-    /*.assets {
-        background: saddlebrown;
-    }*/
 
     .assets #nav-btn, label {
         margin-top: -2%;
-        margin-right: -10% !important;
+        margin-right: -5% !important;
     }
 
     .containerHome {
-        /*background: hotpink;*/
+        /*  background: hotpink;*/
         flex-direction: column;
         align-items: center;
         margin-left: -5% !important;
@@ -606,9 +603,16 @@ body { font-family: 'Poppins', sans-serif; }
     .containerHome {
         width: 106% !important;
         height: 100vh !important;
-        /*background: rgb(114, 186, 114);*/
+       /* background: rgb(114, 186, 114);*/
+    }
+
+    .informationDown p {
+        padding: 2%;
     }
 }
+
+
+
 
 @media screen and (max-width: 512px) {
     /*.containerHome {
@@ -621,7 +625,13 @@ body { font-family: 'Poppins', sans-serif; }
         font-size: 3.1rem !important;
     }
 
+    .informationDown p {
+        padding: 0% 8%;
+    }
+
     .imageHome { width: 50% !important; }
+
+    
 }
 
 @media screen and (max-width: 476px) {
@@ -640,5 +650,40 @@ body { font-family: 'Poppins', sans-serif; }
 @media screen and (max-width: 392px) {
     .buttons .btn-contact::after {
         margin-top: 20% !important;
+    }
+
+    /*.containerHome {
+        background: greenyellow;
+    }*/
+}
+
+
+@media screen and (max-width: 338px) {
+    /*.containerHome {
+        background: gray !important;
+    }*/
+
+    .informationPrincipal {
+        width: 95% !important;
+    }
+
+    .informationPrincipal p {
+        font-size: 3rem !important;
+    }
+    .informationPrincipal .Typewriter__wrapper {
+        font-size: 2.9rem !important;
+    }
+}
+
+@media screen and (max-width: 304px) {
+    /*.containerHome {
+        background: hotpink !important;
+    }*/
+
+    .informationPrincipal p {
+        font-size: 2.5rem !important;
+    }
+    .informationPrincipal .Typewriter__wrapper {
+        font-size: 2.6rem !important;
     }
 }
