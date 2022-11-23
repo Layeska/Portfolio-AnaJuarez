@@ -27,11 +27,11 @@ const Home = () => {
                 </div>
                 <div className='buttons' data-aos='fade-up' data-aos-easing='ease-out-cubic' data-aos-duration='1000'>
                     <button className='btn-contact'>
-                        <a href={'https://drive.google.com/file/d/1IasnC9b-JPKlg0vx92z4thZ4oaHY3Ck5/view?usp=share_link'} target="_blank" rel="noopener noreferrer"> 
+                        <a href={'#'} target="_blank" rel="noopener noreferrer"> 
                         <span>{t('principal.bt-download')}</span></a>
                     </button>
                     <button className='btn-contact'>
-                        <a href='mailto:lisa13suarez@gmail.com?Subject=Interesado%20en%20mi%20CV%20de%20Portafolio%20' target='_blank'>
+                        <a href={'#'} target='_blank'>
                         <span>{t('principal.bt-contact')}</span></a></button>
                 </div>
             </div>
