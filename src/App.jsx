@@ -13,6 +13,7 @@ import './App.css'
 import './styles/Menu.css'
 import './styles/Home.css'
 import './styles/AboutMe.css'
+import './styles/Responsive.css'
 
 function App() {
   return (
