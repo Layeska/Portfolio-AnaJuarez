@@ -1,0 +1,781 @@
+@media screen and (max-width: 1400px) {
+    body { overflow-x: hidden }
+
+    /*.containerHome {
+        background: palevioletred;
+    }*/
+
+    /* .containerAbout {
+        background: palevioletred;
+    }*/
+
+
+    /*.informationGeneral {
+        background: lawngreen;
+    }*/
+
+    /*.banner {
+        background: salmon;
+    }*/
+
+    /*.Container-Time {
+        background: skyblue;
+    }*/
+}
+
+
+@media screen  and (min-height: 1360px) {
+    .containerHome {
+        /*background: rgb(236, 27, 97);*/
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menuExtend { width: 27%; }
+
+    .imageProfile img {
+        width: 80%;
+        height: 60%;
+    }
+    
+    .socialMedia { font-size: 1.4rem; }
+
+    .menuExtend .listMenu li a { font-size: 1.4rem !important; }
+
+    .information {
+        width: 75% !important;
+        height: 36%;
+        order: 2;
+        margin-top: -18%;
+    }
+
+    .imageHome {
+        order: 1;
+        width: 65% !important;
+        height: 50%;
+        margin-top: -25%;
+    }
+
+    .informationPrincipal { margin-top: -35%; }
+
+    .informationDown p {
+        margin-top: 5%;
+        font-size: 1.5rem;
+    }
+
+    .buttons { height: 10% !important; }
+} 
+
+
+
+
+@media screen and (max-width: 1309px) {
+    /*.containerHome, .containerAbout{
+        background: palegreen;
+    }*/
+
+    .socialMedia li a  i { font-size: 140% !important; }
+
+    .socialMedia ul { margin-left: -5%; }
+
+    .footer { font-size: 0.8rem !important; }
+
+    .containerAbout .informationGeneral {
+       /* background: firebrick;*/
+        font-size: 0.97rem;
+    }   
+
+    /*! About Me*/
+    .banner {
+        /*background: rgb(167, 100, 92);*/
+        width: 73%;
+    }
+
+    .banner ul { width: 90%; }
+    
+    .Container-Time {
+        /*background: lawngreen;*/
+        width: 73%;
+      
+    }
+
+    .timeLine {
+        /*background: seashell;*/
+        position: relative;
+        width: 95% !important;
+    }
+
+    .contentLine a {
+        font-size: 1.3rem;
+    }
+
+    .contentLine p {
+        font-size: 0.9rem;
+    }
+
+    .timeLine ul li .line h4 {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    /*.containerHome {
+        background: rgb(159, 185, 194);
+    }*/
+
+    .imageHome img { margin-left: 20%; }
+
+    .informationPrincipal { width: 128% !important; }
+
+    .buttons .btn-contact::after { margin-top: 1%; }
+
+    /*! About Me*/
+    .containerAbout {
+        /*  background: palevioletred;*/
+          width: 81.8% !important; 
+      }
+
+      .informationGeneral .item-a, .item-b, .item-c div, .square  {
+        font-size: 0.9rem;
+      }
+}
+
+
+@media screen and (max-width: 1256px) {
+    hr { display: none; }
+
+    /*.containerHome {
+        background: gold;
+    }*/
+}
+
+
+
+@media screen and (max-width: 1215px) {
+    /*! About Me*/
+
+    /*.containerAbout {
+        background: rgb(149, 56, 87);
+    }*/
+
+    .informationGeneral .item-a, .item-b, .item-c div, .square  {
+        font-size: 0.8rem;
+    }
+
+    .informationGeneral .item-a div, .item-c div{
+        height: 18rem !important;
+    }
+
+    .informationGeneral .item-b div {
+        height: 19rem;
+    }
+
+    .banner {
+        /*background: rgb(167, 100, 92);*/
+        width: 75%;
+    }
+
+    .banner ul { width: 40%; }
+
+    .banner li { width: 15rem; }
+
+    .banner img {
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1142px) {
+    /*.timeLine {
+        background: rgb(104, 206, 128);
+    }*/
+    
+    .listMenu li { margin-left: -18%; }
+
+    .menuExtend .listMenu li a  { font-size: 1rem !important; }
+
+    .socialMedia li a i { font-size: 130% !important; }
+
+    .informationDown {
+       /* background: lavenderblush;*/
+        font-size: 1rem !important;
+    }
+
+    .informationPrincipal p {
+        font-size: 3.8rem !important;
+        margin-top: 0% !important;
+    }
+
+    .informationPrincipal .Typewriter__wrapper {
+       /* background: lawngreen;*/
+        font-size: 4rem !important;
+    }
+
+    .buttons .btn-contact::after  { margin-top: 10%; }
+
+    .imageHome img {
+        width: 95% !important;
+        height: 60% !important;
+    }
+}
+
+
+@media screen and (max-width: 1029px) {
+    /*.containerHome {
+        background: rgb(144, 131, 130);
+    }*/
+    .menuExtend { width: 21.5%; }
+
+    .informationPrincipal .Typewriter__wrapper {
+        font-size: 3.8rem !important;
+    }
+
+    .informationDown p { font-size: 0.9rem; }
+
+    .imageHome img { margin-left: 5%; }
+}
+
+
+
+
+@media screen and (max-width: 981px) {
+    /*.containerHome {
+        background: darkkhaki;
+    }*/
+
+    .socialMedia li a i { font-size: 1.26rem !important; }
+
+    .imageProfile img {
+        height: 70%;
+        width: 70%;
+    }
+    .buttons button {   font-size: 0.65rem !important; }
+}
+
+@media screen and (max-width: 986px) {
+    /*.containerHome {
+        background: slateblue;
+    }*/
+
+    .informationPrincipal .Typewriter__wrapper { font-size: 3.5rem !important; }
+
+    .imageHome img { margin-left: 20%; }
+
+    .buttons { height: 6.5% !important; width: 115% !important; }
+}
+
+@media screen and (max-width: 973px) {
+
+    /*! About Me*/
+    /*.containerAbout {
+        background: rgb(180, 113, 125);
+    }*/
+
+    .informationGeneral .item-a, .item-b, .item-c div, .square  {
+        font-size: 0.7rem;
+    }
+
+    .informationGeneral .item-a div, .item-c div{
+        height: 15rem !important;
+    }
+
+    .informationGeneral .item-b div { height: 16rem; }
+
+    .banner { 
+        margin-left: 25%;
+        width: 72%;
+    }
+    
+    .banner img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .Container-Time { margin-left: 14rem;}
+
+    .contentLine a { font-size: 1.25rem; }
+
+    .contentLine p { font-size: 0.86rem; }
+
+    .timeLine ul li .line h4 { font-size: 10px; }
+}
+
+
+@media screen and (max-width: 924px) {
+    /*.containerHome {
+        background: green;
+    }*/
+
+    .imageProfile img{
+        width: 65%;
+        height: 64%;
+    }
+
+    .socialMedia li a i { font-size: 1.1rem !important; }
+
+    .menuExtend .listMenu li a {
+        font-size: 0.9rem !important;
+    }
+
+    .circle {
+        width: 9px !important;
+        height: 9px !important;
+        margin-top: 1% !important;
+    }
+
+    .react { margin-top: 4% !important; }
+    
+    .informationPrincipal {
+        flex-direction: column;
+        align-items: center;
+        height: 25% !important;
+       /* background: gold;*/
+    }
+
+    .informationPrincipal p { margin-bottom: -3%; }
+
+    /*! About Me*/
+    .informationGeneral { margin-left: 2.5%; }
+
+    .title { margin-left: 25.5%; }
+
+    .contentLine a { font-size: 1.2rem; }
+
+    .contentLine p { font-size: 0.84rem; }
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------*/
+/*!  Menu Hamburgesa */
+
+@media screen and (max-width: 840px) {
+    .containerHome {
+        /*background: rgb(229, 126, 52);*/
+        width: 100% !important;
+        margin-left: 0% !important;
+    }
+
+    /*! About me*/
+    .containerAbout {
+       /* background: salmon;*/
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .title { margin-left: 6.3%; }
+
+    .banner {
+        margin: auto;
+        width: 98%;
+    }
+
+    .Container-Time  {
+       /* background: saddlebrown;*/
+        margin: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /*.containerHome {
+        background: gold;
+    }*/
+
+    .imageHome {
+        width: 40% !important;
+    }
+
+    /*! About Me*/
+    /*.containerAbout {
+        background: grey;
+    }*/
+
+    .informationGeneral {
+        margin-top: 10.4% !important;
+    }
+
+    .banner { width: 90%; }
+}
+
+@media screen and (max-width: 723px) {
+    /*.containerHome {
+        background: rgb(115, 107, 64);
+    }*/
+
+    .imageHome {
+        width: 42% !important;
+        margin-left: -3%;
+    }
+
+    /*! About Me*/
+    /*.containerAbout {
+        background: rgb(164, 76, 76);
+    }*/
+
+    .informationGeneral .item-a, .item-c div {
+        font-size: 0.68rem;
+    }
+
+    .informationGeneral .item-b {
+        font-size: 0.68rem;
+    }
+
+    .informationGeneral .item-b div { height: 16rem; }
+
+}
+
+@media screen and (max-width: 701px) {
+    /*! About me*/
+    /*.containerAbout {
+        background: yellow;
+    }*/
+
+    .informationGeneral {
+        flex-direction: column;
+        
+        justify-content: center;
+        align-items: center;
+    }
+
+    .informationGeneral > div { width: 80% !important; }
+    
+
+    .informationGeneral .item-a {
+        width: 75% !important;
+    }
+
+    .informationGeneral .item-a div, .item-c div{
+        height: 9rem !important;
+    }
+
+    .informationGeneral .item-b div { 
+        height: 11rem; 
+        width: 83%;
+        margin-left: 3%;
+    }
+
+    .informationGeneral .item-c  {
+        width: 75% !important;
+        margin-top: 2.5%;
+    }
+
+
+}
+
+@media screen and (max-width: 670px) {
+
+    .assets #nav-btn, label {
+        margin-top: -2%;
+        margin-right: -5% !important;
+    }
+
+    .containerHome {
+        /*  background: hotpink;*/
+        flex-direction: column;
+        align-items: center;
+        margin-left: -5% !important;
+    }
+
+    .imageHome {
+       /* background: ghostwhite;*/
+        width: 45% !important;
+        align-content: center;
+        order: 1;
+    }
+
+    .imageHome img {
+        height: 95% !important;
+    }
+
+    .information {
+        order: 2;
+        width: 90% !important;
+        height: 40%;
+    }
+
+    .informationPrincipal {
+        height: 40% !important;
+    }
+
+    .informationDown {
+       /* background: gray;*/
+        margin-top: 2% !important;
+    }
+
+    .buttons {
+        margin-top: 2%;
+        height: 14% !important;
+        width: 85% !important;
+    }
+
+    .buttons .btn-contact::after {
+        margin-top: -10% !important;
+    }
+
+    /*! About Me*/
+    /*.containerAbout {
+        background: rgb(100, 151, 177);
+    }*/
+
+    .informationGeneral {
+        margin-top: 12% !important;
+    }
+
+    .contentLine a { font-size: 1.20rem; }
+
+    .contentLine p { font-size: 0.8rem; }
+
+}
+
+@media screen and (max-width: 556px) {
+    /*.containerAbout {
+        background: slateblue;
+    }*/
+
+    .informationGeneral {
+        margin-top: 15% !important;
+    }
+
+    .informationGeneral .item-a, .item-c div {
+        font-size: 0.65rem;
+    }
+
+    .informationGeneral .item-b {
+        font-size: 0.65rem;
+    }
+
+    .contentLine a { font-size: 1.17rem; }
+
+    .contentLine p { font-size: 0.72rem; }
+}
+
+
+@media screen and (max-width: 583px) {
+    .imageHome {
+        margin-left: -5%;
+        width: 52% !important;
+    }
+
+    .containerHome {
+        width: 106% !important;
+        height: 100vh !important;
+       /* background: rgb(114, 186, 114);*/
+    }
+
+    .informationDown p {
+        padding: 2%;
+    }
+
+
+}
+
+@media screen and (max-width: 512px) {
+    /*.containerHome {
+        background: slateblue;
+    }*/
+
+    .informationPrincipal p { font-size: 3.5rem !important; }
+
+    .informationPrincipal .Typewriter__wrapper {
+        font-size: 3.1rem !important;
+    }
+
+    .informationDown p {
+        padding: 0% 8%;
+    }
+
+    .imageHome { width: 50% !important; }
+
+    /*.containerAbout {
+        background: red;
+    }*/
+
+    .contentLine a { font-size: 1.1rem; }
+
+    .contentLine p { font-size: 0.7rem; }
+
+    .timeLine ul li:nth-child(odd) .line {
+        right: -120px;
+    }
+
+    .timeLine ul li:nth-child(even) .line {
+        left: -120px;
+    }
+
+    /* .timeLine ul li .line {
+        background: rgb(150, 233, 72) !important;
+        margin-left: 16% !important;
+    }*/
+}
+
+@media screen and (max-width: 476px) {
+    .buttons .btn-contact::after {
+        margin-top: -1% !important;
+    }
+
+    /*.containerAbout {
+        background: lavenderblush;
+    }*/
+
+    .informationGeneral .item-a div {
+        font-size: 0.62rem;
+    }
+
+    .informationGeneral .item-b div {
+        font-size: 0.62rem;
+    }
+
+    .informationGeneral .item-c div {
+        font-size: 0.62rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .informationGeneral .item-a div {
+        font-size: 0.6rem;
+    }
+
+    .informationGeneral .item-b div {
+        font-size: 0.6rem;
+    }
+
+    .informationGeneral .item-c div {
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .informationGeneral .item-a div {
+        font-size: 0.58rem;
+    }
+
+    .informationGeneral .item-b div {
+        font-size: 0.58rem;
+    }
+
+    .informationGeneral .item-c div {
+        font-size: 0.58rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .buttons .btn-contact::after {
+        margin-top: 30% !important;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 392px) {
+    .buttons .btn-contact::after {
+        margin-top: 20% !important;
+    }
+
+    /*.containerHome {
+        background: greenyellow;
+    }*/
+
+    /*.containerAbout {
+        background: greenyellow;
+    }*/
+
+    .informationGeneral {
+        margin-top: 20% !important;
+    }
+}
+
+@media screen and (max-width: 338px) {
+    /*.containerHome {
+        background: gray !important;
+    }*/
+
+    /*.containerAbout {
+        background: khaki;
+    }*/
+
+    .informationPrincipal {
+        width: 95% !important;
+    }
+
+    .informationPrincipal p {
+        font-size: 3rem !important;
+    }
+    .informationPrincipal .Typewriter__wrapper {
+        font-size: 2.9rem !important;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    /*.containerAbout {
+        background: rgb(82, 190, 170);
+    }*/
+
+    .informationGeneral {
+        margin-top: 25% !important;
+    }
+
+    .informationGeneral .item-a div {
+        font-size: 0.5rem;
+    }
+
+    .informationGeneral .item-b div {
+        font-size: 0.5rem;
+    }
+
+    .informationGeneral .item-c div {
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    /*.containerAbout {
+        background: sandybrown;
+    }*/
+
+    .informationGeneral {
+        margin-top: 25% !important;
+    }
+
+    /*.informationGeneral .item-a div {
+        font-size: 0.48rem;
+    }
+
+    .informationGeneral .item-b div {
+        font-size: 0.48rem;
+    }
+
+    .informationGeneral .item-c div {
+        font-size: 0.48rem;
+    }*/
+}
+
+@media screen and (max-width: 304px) {
+    /*.containerHome {
+        background: hotpink !important;
+    }*/
+
+    .informationPrincipal p {
+        font-size: 2.5rem !important;
+    }
+    .informationPrincipal .Typewriter__wrapper {
+        font-size: 2.6rem !important;
+    }
+
+    .informationGeneral .item-a div {
+        font-size: 0.45rem;
+    }
+
+    .informationGeneral .item-b div {
+        font-size: 0.45rem;
+    }
+
+    .informationGeneral .item-c div {
+        font-size: 0.45rem;
+    }
+}
