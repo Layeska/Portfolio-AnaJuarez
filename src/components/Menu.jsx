@@ -5,6 +5,8 @@ import { useTranslation } from 'react-i18next'
 import ChangeLang from './ChangeLang'
 import ChangeTheme from './ChangeTheme'
 
+import '../styles/Menu.css'
+
 const Menu = () => {
     const [t] = useTranslation('global')
 

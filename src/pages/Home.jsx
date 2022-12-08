@@ -3,8 +3,9 @@ import React from 'react'
 import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import TypeWriter from 'typewriter-effect'
-import 'aos/dist/aos.css'
 
+import 'aos/dist/aos.css'
+import '../styles/Home.css'
 
 const Home = () => {
     const [t] = useTranslation('global')
