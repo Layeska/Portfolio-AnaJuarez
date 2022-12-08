@@ -72,5 +72,9 @@
         "course13": "Reparación y Mantenimiento Correctivo y Preventivo de PC",
         "school13": "Universidad Nacional de Ingeniería - UNI",
         "date13": "Octubre 2017"
+    }, "portfolio": {
+        "designer": "Diseño Web",
+        "btn1": "Ver Pág",
+        "btn2": "Ver Código" 
     }
 }
