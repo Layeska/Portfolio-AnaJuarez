@@ -691,6 +691,10 @@
     .informationGeneral .item-c div {
         font-size: 0.58rem;
     }
+
+    .containerHome {
+        
+    }
 }
 
 @media screen and (max-width: 414px) {
