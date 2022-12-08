@@ -72,5 +72,9 @@
         "course13": "Pc Repair and Maintenance",
         "school13": "Universidad Nacional de Ingeniería - UNI",
         "date13": "October 2017"
+    }, "portfolio": {
+        "designer": "Web Designer",
+        "btn1": "Show Page",
+        "btn2": "Show Code" 
     }
 }
