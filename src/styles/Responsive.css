@@ -764,15 +764,15 @@
     }*/
 
     .containerHome {
-        margin-left: 0% !important;
+        margin-left: -10% !important;
     }
 
     .imageHome {
-        margin-left: -15% !important;
+        margin-left: 10% !important;
     }
 
     .information {
-        margin-left: -10% !important;
+        margin-left: 15% !important;
     }
 
     .informationGeneral {
