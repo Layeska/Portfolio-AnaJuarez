@@ -384,6 +384,12 @@
     .containerSkill {
         margin-left: 10%;
     }
+
+    /*! Portfolio */
+    #searchClass {
+        margin-left: 13%;
+        margin-top: 13%;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -692,6 +698,12 @@
 
     .informationGeneral {
         margin-top: 20% !important;
+    }
+
+    /*! Portfolio */
+    #searchClass {
+        margin-left: 10%;
+        margin-top: 24%;
     }
 }
 
