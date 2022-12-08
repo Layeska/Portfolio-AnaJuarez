@@ -1,0 +1,231 @@
+
+#searchClass {
+	position: absolute;
+    width: 75%; 
+    margin-left: 22.5%;
+	margin-top: 7%;
+    /*background: darkcyan;*/
+}
+
+#searchClass input[type='radio'] { display: none; }
+
+#searchClass label {
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	border-radius: 55px;
+	cursor: pointer;
+	transition-duration: 1s;
+	margin-left: 3rem;
+	/*background: green;*/
+}
+
+#searchClass label:hover {
+    color: #FF4F5A;
+}
+
+#elements {
+	width: 100%;
+	transition: all 2s ease-in;
+}
+
+
+#htmls:checked ~ #elements .vanilla,
+#htmls:checked ~ #elements .react,
+#htmls:checked ~ #elements .react-redux,
+#htmls:checked ~ #elements .react-bootstrap,
+#htmls:checked ~ #elements .react-axios
+{ display: none; transition: all 2s ease-in;}
+
+
+#vanillas:checked ~ #elements .html,
+#vanillas:checked ~ #elements .react,
+#vanillas:checked ~ #elements .react-redux,
+#vanillas:checked ~ #elements .react-bootstrap,
+#vanillas:checked ~ #elements .react-axios
+{
+	display: none;
+	transition: all 2s ease-in;
+}
+
+#reacts:checked ~ #elements .vanilla,
+#reacts:checked ~ #elements .html,
+#reacts:checked ~ #elements .react-redux,
+#reacts:checked ~ #elements .react-bootstrap,
+#reacts:checked ~ #elements .react-axios
+{
+	display: none;
+	transition: all 2s ease-in;
+}
+
+#react-bootstraps:checked ~ #elements .vanilla,
+#react-bootstraps:checked ~ #elements .react,
+#react-bootstraps:checked ~ #elements .react-redux,
+#react-bootstraps:checked ~ #elements .html,
+#react-bootstraps:checked ~ #elements .react-axios
+{
+	display: none;
+	transition: all 2s ease-in;
+}
+
+#react-reduxs:checked ~ #elements .vanilla,
+#react-reduxs:checked ~ #elements .react,
+#react-reduxs:checked ~ #elements .html,
+#react-reduxs:checked ~ #elements .react-bootstrap,
+#react-reduxs:checked ~ #elements .react-axios
+{
+	display: none;
+	transition: all 2s ease-in;
+}
+#react-axioss:checked ~ #elements .vanilla,
+#react-axioss:checked ~ #elements .react,
+#react-axioss:checked ~ #elements .react-redux,
+#react-axioss:checked ~ #elements .react-bootstrap,
+#react-axioss:checked ~ #elements .html{
+	display: none;
+	transition: all 2s ease-in;
+}
+
+.react { background: transparent; }
+
+/****************************************************/
+
+.flip-mainContainer {
+    margin-top: 3%;
+
+}
+
+.flip-card-frontContainer img {
+    max-width: 100%;
+	vertical-align: middle;
+}
+
+.rowContainer {
+    /*background: salmon;*/
+	display: flex;
+	flex-wrap: wrap;
+    margin-top: -8%;
+    max-width: 100%;
+}
+
+.containerPortfolio {
+	max-width: 1170px;
+	margin:auto;
+	background: transparent;
+	width: 100%;
+	height: 100vh;
+}
+
+.flip-mainContainer {
+	max-height: 100vh;
+	/*background-color: rgb(221, 227, 247);*/
+	padding: 100px 0;
+	max-width: 250vh;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+.flip-mainContainer .flip-cardContainer {
+    flex:0 0 calc(33.33% - 30px);
+    margin:0 15px 30px;
+    perspective: 1000px;
+}
+
+.flip-mainContainer .flip-card-innerContainer {
+	/*box-shadow: 0 0 10px rgb(169, 179, 214);*/
+	position: relative;
+	transform-style: preserve-3d;
+	transition: all 1s ease;
+}
+
+.flip-mainContainer .flip-card-frontContainer img { width: 100%; }
+
+.flip-mainContainer .flip-card-frontContainer,
+
+.flip-mainContainer .flip-card-backContainer { backface-visibility: hidden; }
+
+.flip-mainContainer .flip-card-backContainer {
+	background-color: rgb(255, 79, 90, 0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transform: rotateY(180deg);
+}
+
+.flip-mainContainer .flip-card-backContainer h3 {
+	font-size: 24px;
+	color: #212121;
+	margin: 0 0 5px;
+}
+
+.flip-mainContainer .flip-card-backContainer p {
+	font-size: 1.2rem;
+	color: #212121;
+	font-style: italic;
+	margin: 0;
+}
+
+
+.flip-mainContainer .flip-card-backContainer button {
+	border: none;
+	margin-left: 1rem;
+	padding: 0.6rem;
+	background: transparent;
+	margin-top: 1rem;
+	transition: all 1s;
+}
+
+.flip-mainContainer .flip-card-backContainer button:hover {
+	background: #FF4F5A;
+	border-radius: 10px;
+	color: rgb(255, 239, 239);
+}
+
+.flip-mainContainer .flip-cardContainer:hover .flip-card-innerContainer { transform: rotateY(180deg); }
+
+@media screen and (max-width: 1510px) {
+	#searchClass label {
+		margin-left: 2rem !important;
+		font-size: 1.3rem;
+		margin-top: 1rem;
+	}
+}
+
+@media screen and (max-width: 1510px) {
+	#searchClass label{
+		margin-left: 2rem !important;
+		font-size: 1.22rem;
+	}
+}
+
+@media(max-width: 991px) {
+	#searchClass label{
+		background: rgb(255, 79, 90, 0.5);
+		display: flex;
+		margin-left: 1rem !important;
+		margin-top: 0.3rem !important;
+		justify-content: center;
+		font-size: 1.3rem;
+		font-weight: 400;
+	}
+
+	#searchClass label:hover {
+		color:rgb(206, 65, 74);
+	}
+
+    .flip-mainContainer .flip-cardContainer {
+        flex: 0 0 calc(50% - 30px);
+    } 
+}
+
+@media(max-width: 767px) {
+    .flip-mainContainer .flip-cardContainer {
+        flex: 0 0 calc(100% - 30px);
+    }
+}
