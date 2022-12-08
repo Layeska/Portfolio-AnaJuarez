@@ -765,8 +765,36 @@
 
 @media screen and (max-width: 386px) {
     .information {
-        margin-left: 35% !important;
+        margin-left: -10% !important;
         margin-top: 5%;
+    }
+
+    .imageHome {
+        margin-top: -30%;
+        margin-left: 0% !important;
+    }
+
+    .informationPrincipal {
+       /* background: yellowgreen;*/
+        position: absolute;
+        height: 20% !important;
+        top: 32%;
+    }
+
+    .Typewriter__wrapper {
+        /*background: yellow;*/
+        width: 150% !important;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    /*.information {
+        background: seagreen;
+    }*/
+
+    .informationPrincipal {
+        /*background: yellowgreen !important;*/
+        width: 18rem !important;
     }
 }
 
