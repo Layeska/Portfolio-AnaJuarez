@@ -768,11 +768,16 @@
     }
 
     .imageHome {
+        position: absolute;
+        z-index: 5;
+        margin-top: -130%;
         margin-left: 10% !important;
     }
 
     .information {
-        margin-left: 15% !important;
+        position: absolute;
+        z-index: 5;
+        margin-left: 18% !important;
     }
 
     .informationGeneral {
