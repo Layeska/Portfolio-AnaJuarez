@@ -557,12 +557,6 @@
 
 }
 
-@media screen and (max-width: 656px) {
-    .containerHome {
-
-    }
-}
-
 @media screen and (max-width: 556px) {
     /*.containerAbout {
         background: slateblue;
@@ -657,6 +651,10 @@
 
     .imageHome {
         margin-left: 25% !important;
+    }
+
+    .information {
+        margin-left: 35% !important;
     }
 
     .buttons .btn-contact::after {
