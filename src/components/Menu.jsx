@@ -25,7 +25,6 @@ const Menu = () => {
                         <li> <Link  to={'/about'}> {t('header.about-me')} </Link> </li>
                         <li> <Link to={'/skill'}> {t('header.skills')} </Link> </li>
                         <li> <Link to={'/portfolio'}> {t('header.portfolio')} </Link> </li>
-                        <li> <Link to={'/contact'}> {t('header.contactMe')}  </Link> </li>
                     </ul>
                 </nav>
             </div>
@@ -74,13 +73,6 @@ const Menu = () => {
                                     <span className='react'></span>
                                     <span className='circle'></span>
                                     {t('header.portfolio')}
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to={'/contact'} className='active'>
-                                    <span className='react'></span>
-                                    <span className='circle'></span>
-                                    {t('header.contactMe')}
                                 </Link>
                             </li>
                         </ul>
