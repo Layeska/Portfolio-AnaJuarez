@@ -360,6 +360,10 @@
         margin-left: 0% !important;
     }
 
+    .assets {
+        margin-left: 4%;
+    }
+
     /*! About me*/
     .containerAbout {
        /* background: salmon;*/
@@ -515,6 +519,7 @@
         order: 2;
         width: 90% !important;
         height: 40%;
+        margin-left: 30% !important;
     }
 
     .informationPrincipal {
@@ -643,6 +648,10 @@
         margin-left: -20% !important;
     }
 
+    .imageHome {
+        margin-left: 25% !important;
+    }
+
     .buttons .btn-contact::after {
         margin-top: -1% !important;
     }
@@ -699,9 +708,6 @@
         margin-top: 30% !important;
     }
 
-    .containerHome {
-
-    }
 
 }
 
@@ -759,6 +765,14 @@
 
     .containerHome {
         margin-left: 0% !important;
+    }
+
+    .imageHome {
+        margin-left: -15% !important;
+    }
+
+    .information {
+        margin-left: -10% !important;
     }
 
     .informationGeneral {
