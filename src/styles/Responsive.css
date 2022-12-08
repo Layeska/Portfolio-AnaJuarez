@@ -640,7 +640,7 @@
 
 @media screen and (max-width: 476px) {
     .containerHome {
-        margin-left: 0% !important;
+        margin-left: -20% !important;
     }
 
     .buttons .btn-contact::after {
@@ -692,9 +692,6 @@
         font-size: 0.58rem;
     }
 
-    .containerHome {
-        
-    }
 }
 
 @media screen and (max-width: 414px) {
@@ -702,7 +699,9 @@
         margin-top: 30% !important;
     }
 
-    
+    .containerHome {
+
+    }
 
 }
 
