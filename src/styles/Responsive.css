@@ -513,13 +513,14 @@
 
     .imageHome img {
         height: 95% !important;
+        margin-left: 5%;
     }
 
     .information {
         order: 2;
-        width: 90% !important;
+       /* width: 90% !important;*/
         height: 40%;
-        margin-left: 30% !important;
+        margin-left: 0% !important;
     }
 
     .informationPrincipal {
@@ -554,6 +555,12 @@
 
     .contentLine p { font-size: 0.8rem; }
 
+}
+
+@media screen and (max-width: 656px) {
+    .containerHome {
+
+    }
 }
 
 @media screen and (max-width: 556px) {
@@ -717,15 +724,30 @@
     }
 
     .containerHome {
-        /*background: greenyellow;*/
-        margin-left: -20% !important;
+       /* background: greenyellow;*/
+       /* margin-left: -30% !important;*/
+       position: absolute;
     }
 
     /*.containerAbout {
         background: greenyellow;
     }*/
 
+    /*.imageHome {
+        position: absolute;
+        z-index: 5;
+        margin-top: -120%;
+        margin-left: 50% !important;
+    }*/
+
+    .information {
+        justify-content: end;
+        margin-left: 50% !important;
+    }
+
     .informationGeneral {
+        position: absolute;
+        z-index: 5;
         margin-top: 20% !important;
     }
 
