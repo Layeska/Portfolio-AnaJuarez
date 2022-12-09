@@ -122,8 +122,8 @@ const Portfolio = () => {
                                     <div className="text">
                                         <h3>JSX, Hooks (UseState) </h3>
                                         <p>{t('portfolio.designer')}</p>
-                                        <button href='https://project-ana.netlify.app/'>{t('portfolio.btn1')}</button>
-                                        <button href='https://github.com/Layeska/SliderCites.git' target='_back'>{t('portfolio.btn2')}</button>
+                                        <button><a href='https://project-ana.netlify.app/' target='_back'>{t('portfolio.btn1')}</a></button>
+                                        <button><a href='https://github.com/Layeska/SliderCites.git' target='_back'>{t('portfolio.btn2')}</a></button>
                                     </div>
                                 </div>
                             </div>
@@ -138,8 +138,8 @@ const Portfolio = () => {
                                     <div className="text">
                                         <h3>React, Hooks (UseState, UseRef)</h3>
                                         <p>{t('portfolio.designer')}</p>
-                                        <button href='https://app-ana.netlify.app/'>{t('portfolio.btn1')}</button>
-                                        <button href='https://github.com/Layeska/Weather-Api.git' target='_back'>{t('portfolio.btn2')}</button>
+                                        <button><a href='https://app-ana.netlify.app/' target='_back'>{t('portfolio.btn1')}</a></button>
+                                        <button><a href='https://github.com/Layeska/Weather-Api.git' target='_back'>{t('portfolio.btn2')}</a></button>
                                     </div>
                                 </div>
                             </div>
@@ -154,8 +154,8 @@ const Portfolio = () => {
                                     <div className="text">
                                         <h3>JSX</h3>
                                         <p>{t('portfolio.designer')}</p>
-                                        <button href='https://users-ana.netlify.app/' target='_black'>{t('portfolio.btn1')}</button>
-                                        <button href='https://github.com/Layeska/Users-json-React.git' target='_back'>{t('portfolio.btn2')}</button>
+                                        <button><a href='https://users-ana.netlify.app/' target='_black'>{t('portfolio.btn1')}</a></button>
+                                        <button><a href='https://github.com/Layeska/Users-json-React.git' target='_back'>{t('portfolio.btn2')}</a></button>
                                     </div>
                                 </div>
                             </div>
@@ -170,8 +170,8 @@ const Portfolio = () => {
                                     <div className="text">
                                         <h3>React, Hooks (UseState, UseRef), Axios, Bootstrap, API rest</h3>
                                         <p>{t('portfolio.designer')}</p>
-                                        <button href='https://ecommerce-react-ana.netlify.app/'>{t('portfolio.btn1')}</button>
-                                        <button as={'https://github.com/Layeska/ecommerce-React.git'} target='_back'>{t('portfolio.btn2')}</button>
+                                        <button><a href='https://ecommerce-react-ana.netlify.app/' target='_blank'>{t('portfolio.btn1')}</a></button>
+                                        <button><a href='https://github.com/Layeska/ecommerce-React.git' target='_back'>{t('portfolio.btn2')}</a></button>
                                     </div>
                                 </div>
                             </div>
@@ -186,8 +186,8 @@ const Portfolio = () => {
                                     <div className="text">
                                         <h3>React, API rest, Hooks (useState)</h3>
                                         <p>{t('portfolio.designer')}</p>
-                                        <button href='https://appi-rick.netlify.app/'>{t('portfolio.btn1')}</button>
-                                        <button href='https://github.com/Layeska/Appi-Rick.git' target='_back'>{t('portfolio.btn2')}</button>
+                                        <button><a href='https://appi-rick.netlify.app/' target='_blank'>{t('portfolio.btn1')}</a></button>
+                                        <button><a href='https://github.com/Layeska/Appi-Rick.git' target='_back'>{t('portfolio.btn2')}</a></button>
                                     </div>
                                 </div>
                             </div>
@@ -202,8 +202,8 @@ const Portfolio = () => {
                                     <div className="text">
                                         <h3>React, API rest, Hooks (useState)</h3>
                                         <p>{t('portfolio.designer')}</p>
-                                        <button href='https://poke-appi-ana.netlify.app/'>{t('portfolio.btn1')}</button>
-                                        <button href='https://github.com/Layeska/PokeAppi.git' target='_back'>{t('portfolio.btn2')}</button>
+                                        <button><a href='https://poke-appi-ana.netlify.app/' target='_blank'>{t('portfolio.btn1')}</a></button>
+                                        <button><a href='https://github.com/Layeska/PokeAppi.git' target='_back'>{t('portfolio.btn2')}</a></button>
                                     </div>
                                 </div>
                             </div>
