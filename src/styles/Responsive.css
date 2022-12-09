@@ -793,8 +793,23 @@
         margin-left: 45% !important;
     }
 
+    .information {
+        /*background: yellowgreen;*/
+        width: 80%;
+        margin-top: -15%;
+    }
+
+    .informationPrincipal {
+        width: 100% ;
+        /*background: gray;*/
+    }
+
+    /*.Typewriter__wrapper {
+       /* background: yellow;
+    }*/
+
     .informationDown {
-        margin-top: 5% !important;
+        margin-top: 20rem !important;
         /*background: salmon;*/
     }
 
