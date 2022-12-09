@@ -28,6 +28,9 @@ const Portfolio = () => {
 
                 <input type='radio' name='filter' id='react-axioss'/>
                 <label htmlFor='react-axioss'>React Axios</label>
+
+                <input type='radio' name='filter' id='nodejs'/>
+                <label htmlFor='react-axioss'>Node JS</label>
             
             <div className='flip-mainContainer' id='elements' data-aos="fade-up" data-aos-duration="3000">
                 <div className='containerPortfolio'>
@@ -204,6 +207,20 @@ const Portfolio = () => {
                                         <p>{t('portfolio.designer')}</p>
                                         <button><a href='https://poke-appi-ana.netlify.app/' target='_blank'>{t('portfolio.btn1')}</a></button>
                                         <button><a href='https://github.com/Layeska/PokeAppi.git' target='_back'>{t('portfolio.btn2')}</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flip-cardContainer nodejs">
+                            <div className="flip-card-innerContainer">
+                                <div className="flip-card-frontContainer">
+                                    <img src='https://i.postimg.cc/Jnbbb52g/Screenshot-2022-10-19-232900.png' alt="flip-card"/>
+                                </div>
+                                <div className="flip-card-backContainer">
+                                    <div className="text">
+                                        <h3>Node, postgreSQL, Sequelize, Express</h3>
+                                        <p>{t('portfolio.designer')}</p>
+                                        <button><a href='https://github.com/Layeska/Flowers-Ecommerce.git' target='_back'>{t('portfolio.btn2')}</a></button>
                                     </div>
                                 </div>
                             </div>
