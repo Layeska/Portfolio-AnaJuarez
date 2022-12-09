@@ -30,7 +30,7 @@ const Portfolio = () => {
                 <label htmlFor='react-axioss'>React Axios</label>
 
                 <input type='radio' name='filter' id='nodejs'/>
-                <label htmlFor='react-axioss'>Node JS</label>
+                <label htmlFor='nodejs'>Node JS</label>
             
             <div className='flip-mainContainer' id='elements' data-aos="fade-up" data-aos-duration="3000">
                 <div className='containerPortfolio'>
@@ -214,7 +214,7 @@ const Portfolio = () => {
                         <div className="flip-cardContainer nodejs">
                             <div className="flip-card-innerContainer">
                                 <div className="flip-card-frontContainer">
-                                    <img src='https://i.postimg.cc/Jnbbb52g/Screenshot-2022-10-19-232900.png' alt="flip-card"/>
+                                    <img src='https://i.postimg.cc/0Qd62tJ0/screen.jpg' alt="flip-card"/>
                                 </div>
                                 <div className="flip-card-backContainer">
                                     <div className="text">
