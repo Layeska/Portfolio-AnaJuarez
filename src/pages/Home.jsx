@@ -28,11 +28,11 @@ const Home = () => {
                 </div>
                 <div className='buttons' data-aos='fade-up' data-aos-easing='ease-out-cubic' data-aos-duration='1000'>
                     <button className='btn-contact'>
-                        <a href={'#'} target="_blank" rel="noopener noreferrer"> 
+                        <a href={'https://drive.google.com/file/d/1EnS5_tHNFN1vMLN_qwRrE_gUEAgySyvU/view?usp=share_link'} target="_blank" rel="noopener noreferrer"> 
                         <span>{t('principal.bt-download')}</span></a>
                     </button>
                     <button className='btn-contact'>
-                        <a href={'#'} target='_blank'>
+                        <a href={'https://drive.google.com/file/d/12UmOQCAh_sDx6dpbEtnL0gTRc0xzzBh8/view?usp=sharing'} target='_blank'>
                         <span>{t('principal.bt-contact')}</span></a></button>
                 </div>
             </div>
