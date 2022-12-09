@@ -4,6 +4,26 @@ html[data-theme='light'] { background: rgb(235, 235, 231); }
 html[data-theme='dark'] { background: rgb(119, 117, 117,1); }
 
 /*! styles of toggle Change language and theme */
+[data-theme='dark'] .informationGeneral .square {
+    background: rgb(255, 79, 90, 0.7);
+}
+
+[data-theme='dark'] .informationGeneral .item-b  div {
+    background: rgb(255, 79, 90, 0.7);
+}
+
+[data-theme='dark']  .timeLine::before {
+    background: rgb(255, 79, 90, 0.4) !important;
+}
+
+[data-theme='dark'] .timeLine ul li:nth-child(odd)::before {
+    background: rgb(255, 79, 90, 0.4) !important;
+}
+
+[data-theme='dark'] .contentLine a {
+    color: rgb(211, 204, 204, 0.7);
+}
+
 .assets {
 	position: absolute;
 	width: 96.5%;

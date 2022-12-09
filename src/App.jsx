@@ -9,6 +9,7 @@ import ErrorPage from './pages/ErrorPage'
 import Menu from './components/Menu'
 
 import './App.css'
+import './styles/Menu.css'
 import './styles/Responsive.css'
 
 function App() {
