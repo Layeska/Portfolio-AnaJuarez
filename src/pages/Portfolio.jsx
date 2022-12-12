@@ -211,6 +211,22 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
+                        {/*Saine*/}
+                        <div className="flip-cardContainer react">
+                            <div className="flip-card-innerContainer">
+                                <div className="flip-card-frontContainer">
+                                    <img src='https://i.postimg.cc/FsH5xcSK/saine.jpg' alt='flip-card' className=''/>
+                                </div>
+                                <div className="flip-card-backContainer">
+                                    <div className="text">
+                                        <h3>JSX, Redux, Bootstrap </h3>
+                                        <p>{t('portfolio.designer')}</p>
+                                        <button><a href='https://saine-clone.netlify.app/' target='_back'>{t('portfolio.btn1')}</a></button>
+                                        <button><a href='https://github.com/No-Country/c8-86-t-react-firebase.git' target='_back'>{t('portfolio.btn2')}</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div className="flip-cardContainer nodejs">
                             <div className="flip-card-innerContainer">
                                 <div className="flip-card-frontContainer">
