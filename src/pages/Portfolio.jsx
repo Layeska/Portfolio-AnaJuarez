@@ -81,22 +81,7 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                        {/*card 4*/}
-                        <div className="flip-cardContainer react">
-                            <div className="flip-card-innerContainer">
-                                <div className="flip-card-frontContainer">
-                                    <img src='https://i.postimg.cc/sXysqNGJ/Captura-web-19-10-2022-231127-project-ana-netlify-app.jpg' alt='flip-card' className=''/>
-                                </div>
-                                <div className="flip-card-backContainer">
-                                    <div className="text">
-                                        <h3>JSX, Hooks (UseState) </h3>
-                                        <p>{t('portfolio.designer')}</p>
-                                        <button><a href='https://project-ana.netlify.app/' target='_back'>{t('portfolio.btn1')}</a></button>
-                                        <button><a href='https://github.com/Layeska/SliderCites.git' target='_back'>{t('portfolio.btn2')}</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
                         {/*card 5*/}
                         <div className="flip-cardContainer react-redux">
                             <div className="flip-card-innerContainer">
@@ -188,6 +173,23 @@ const Portfolio = () => {
                                         <h3>Node, postgreSQL, Sequelize, Express</h3>
                                         <p>{t('portfolio.designer')}</p>
                                         <button><a href='https://github.com/Layeska/Flowers-Ecommerce.git' target='_back'>{t('portfolio.btn2')}</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/*card 4*/}
+
+                        <div className="flip-cardContainer html">
+                            <div className="flip-card-innerContainer">
+                                <div className="flip-card-frontContainer">
+                                    <img src='https://i.postimg.cc/sXysqNGJ/Captura-web-19-10-2022-231127-project-ana-netlify-app.jpg' alt="flip-card"/>
+                                </div>
+                                <div className="flip-card-backContainer">
+                                    <div className="text">
+                                        <h3>Node, postgreSQL, Sequelize, Express</h3>
+                                        <p>{t('portfolio.designer')}</p>
+                                        <button><a href='https://project-ana.netlify.app/' target='_back'>{t('portfolio.btn1')}</a></button>
+                                        <button><a href='https://github.com/Layeska/SliderCites.git' target='_back'>{t('portfolio.btn2')}</a></button>
                                     </div>
                                 </div>
                             </div>
