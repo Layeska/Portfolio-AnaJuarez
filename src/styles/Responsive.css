@@ -557,6 +557,18 @@
 
 }
 
+@media screen and (max-width: 669px){
+    .flip-mainContainer {
+        /*background-color: hotpink;*/
+        margin-left: 4%;
+    }
+
+    #elements {
+        /*background: lawngreen;*/
+        padding: 15% 0%;
+    }
+}
+
 @media screen and (max-width: 556px) {
     /*.containerAbout {
         background: slateblue;
@@ -720,7 +732,20 @@
         margin-top: 30% !important;
     }
 
+    #searchClass  {
+        margin-top: 18%;
+    }
 
+    #searchClass label {
+        margin-top: 2% !important;
+        font-size: 1rem;
+        margin-left: -3% !important;
+    }
+
+    #elements {
+        /*background: lawngreen;*/
+        padding: 15% 0%;
+    }
 }
 
 @media screen and (max-width: 391px) {
@@ -818,6 +843,10 @@
         /*background: yellow;*/
         width: 150% !important;
     }
+
+    .flip-cardContainer {
+        background: salmon;
+    }
 }
 
 @media screen and (max-width: 355px) {
@@ -828,6 +857,11 @@
     .informationPrincipal {
         /*background: yellowgreen !important;*/
         width: 18rem !important;
+    }
+
+    .flip-mainContainer {
+        /*background-color: sandybrown;*/
+        margin-left: 3.2%;
     }
 }
 
