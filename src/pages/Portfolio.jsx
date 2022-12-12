@@ -11,9 +11,6 @@ const Portfolio = () => {
                 <input type='radio' name='filter' id='all' />
                 <label htmlFor='all'>All</label> 
 
-                <input type='radio' name='filter' id='htmls'/>
-                <label htmlFor='htmls'>HTML/CSS</label>
-
                 <input type='radio' name='filter' id='vanillas'/>
                 <label htmlFor='vanillas'>JavaScrip Vanilla</label>
 
@@ -29,45 +26,14 @@ const Portfolio = () => {
                 <input type='radio' name='filter' id='react-axioss'/>
                 <label htmlFor='react-axioss'>React Axios</label>
 
-                <input type='radio' name='filter' id='nodejs'/>
-                <label htmlFor='nodejs'>Node JS</label>
+                <input type='radio' name='filter' id='htmls'/>
+                <label htmlFor='htmls'>Node</label>
             
             <div className='flip-mainContainer' id='elements' data-aos="fade-up" data-aos-duration="3000">
                 <div className='containerPortfolio'>
                     <div className="rowContainer">
+                        
                         {/*card 1*/}
-                        <div className="flip-cardContainer html">
-                            <div className="flip-card-innerContainer">
-                                <div className="flip-card-frontContainer">
-                                    <img src='https://i.postimg.cc/pL9SVLYG/html3.jpg' alt='flip-card' className=''/>
-                                </div>
-                                <div className="flip-card-backContainer">
-                                    <div className="text">
-                                        <h3>Html + CSS</h3>
-                                        <p>{t('portfolio.designer')}</p>
-                                        <button><a href='https://service-page-ana.netlify.app/' target='_blank'>{t('portfolio.btn1')}</a></button>
-                                        <button><a href='https://github.com/Layeska/Service-page-ana.git' target='_blank'></a>{t('portfolio.btn2')}</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/*card 2*/}
-                        <div className="flip-cardContainer html">
-                            <div className="flip-card-innerContainer">
-                                <div className="flip-card-frontContainer">
-                                    <img src='https://i.postimg.cc/m2yNGfHc/html2.jpg' alt='flip-card' className=''/>
-                                </div>
-                                <div className="flip-card-backContainer">
-                                    <div className="text">
-                                        <h3>HTML + CSS </h3>
-                                        <p>{t('portfolio.designer')}</p>
-                                        <button> <a href='https://portafolio-ana.netlify.app/' target='_blank'>{t('portfolio.btn1')}</a></button>
-                                        <button><a href='https://github.com/Layeska/Portafolio.git' target='_blank'>{t('portfolio.btn2')}</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/*card 3*/}
                         <div className="flip-cardContainer vanilla">
                             <div className="flip-card-innerContainer">
                                 <div className="flip-card-frontContainer">
@@ -83,7 +49,7 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                        {/*card 4*/}
+                        {/*card 2*/}
                         <div className="flip-cardContainer vanilla">
                             <div className="flip-card-innerContainer">
                                 <div className="flip-card-frontContainer">
@@ -99,7 +65,7 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                        {/*card 5*/}
+                        {/*card 3*/}
                         <div className="flip-cardContainer vanilla">
                             <div className="flip-card-innerContainer">
                                 <div className="flip-card-frontContainer">
@@ -115,7 +81,7 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                        {/*card 6*/}
+                        {/*card 4*/}
                         <div className="flip-cardContainer react">
                             <div className="flip-card-innerContainer">
                                 <div className="flip-card-frontContainer">
@@ -131,7 +97,7 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                        {/*card 7*/}
+                        {/*card 5*/}
                         <div className="flip-cardContainer react-redux">
                             <div className="flip-card-innerContainer">
                                 <div className="flip-card-frontContainer">
@@ -147,8 +113,8 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                        {/*card 8*/}
-                        <div className="flip-cardContainer react-redux">
+                        {/*card 6*/}
+                        <div className="flip-cardContainer react-axios">
                             <div className="flip-card-innerContainer">
                                 <div className="flip-card-frontContainer">
                                     <img src='https://i.postimg.cc/65Z67t03/users-React.jpg' alt="flip-card" className=''/>
@@ -163,7 +129,7 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                        {/*card 9*/}
+                        {/*card 7*/}
                         <div className="flip-cardContainer react-bootstrap">
                             <div className="flip-card-innerContainer">
                                 <div className="flip-card-frontContainer">
@@ -179,7 +145,7 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                        {/*card 10*/}
+                        {/*card 8*/}
                         <div className="flip-cardContainer react-axios">
                             <div className="flip-card-innerContainer">
                                 <div className="flip-card-frontContainer">
@@ -195,8 +161,8 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                        {/*card 11*/}
-                        <div className="flip-cardContainer react-axios">
+                        {/*card 9*/}
+                        <div className="flip-cardContainer react-redux">
                             <div className="flip-card-innerContainer">
                                 <div className="flip-card-frontContainer">
                                     <img src='https://i.postimg.cc/Jnbbb52g/Screenshot-2022-10-19-232900.png' alt="flip-card"/>
@@ -211,8 +177,23 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
+                        {/*card 10*/}
+                        <div className="flip-cardContainer html">
+                            <div className="flip-card-innerContainer">
+                                <div className="flip-card-frontContainer">
+                                    <img src='https://i.postimg.cc/0Qd62tJ0/screen.jpg' alt="flip-card"/>
+                                </div>
+                                <div className="flip-card-backContainer">
+                                    <div className="text">
+                                        <h3>Node, postgreSQL, Sequelize, Express</h3>
+                                        <p>{t('portfolio.designer')}</p>
+                                        <button><a href='https://github.com/Layeska/Flowers-Ecommerce.git' target='_back'>{t('portfolio.btn2')}</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         {/*Saine*/}
-                        <div className="flip-cardContainer react">
+                        <div className="flip-cardContainer react-bootstrap">
                             <div className="flip-card-innerContainer">
                                 <div className="flip-card-frontContainer">
                                     <img src='https://i.postimg.cc/FsH5xcSK/saine.jpg' alt='flip-card' className=''/>
@@ -227,20 +208,6 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flip-cardContainer nodejs">
-                            <div className="flip-card-innerContainer">
-                                <div className="flip-card-frontContainer">
-                                    <img src='https://i.postimg.cc/0Qd62tJ0/screen.jpg' alt="flip-card"/>
-                                </div>
-                                <div className="flip-card-backContainer">
-                                    <div className="text">
-                                        <h3>Node, postgreSQL, Sequelize, Express</h3>
-                                        <p>{t('portfolio.designer')}</p>
-                                        <button><a href='https://github.com/Layeska/Flowers-Ecommerce.git' target='_back'>{t('portfolio.btn2')}</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -250,3 +217,38 @@ const Portfolio = () => {
 
 
 export default Portfolio
+
+/*
+{/*card 1
+<div className="flip-cardContainer html">
+<div className="flip-card-innerContainer">
+    <div className="flip-card-frontContainer">
+        <img src='https://i.postimg.cc/pL9SVLYG/html3.jpg' alt='flip-card' className=''/>
+    </div>
+    <div className="flip-card-backContainer">
+        <div className="text">
+            <h3>Html + CSS</h3>
+            <p>{t('portfolio.designer')}</p>
+            <button><a href='https://service-page-ana.netlify.app/' target='_blank'>{t('portfolio.btn1')}</a></button>
+            <button><a href='https://github.com/Layeska/Service-page-ana.git' target='_blank'></a>{t('portfolio.btn2')}</button>
+        </div>
+    </div>
+</div>
+</div>
+{/*card 2*
+<div className="flip-cardContainer html">
+<div className="flip-card-innerContainer">
+    <div className="flip-card-frontContainer">
+        <img src='https://i.postimg.cc/m2yNGfHc/html2.jpg' alt='flip-card' className=''/>
+    </div>
+    <div className="flip-card-backContainer">
+        <div className="text">
+            <h3>HTML + CSS </h3>
+            <p>{t('portfolio.designer')}</p>
+            <button> <a href='https://portafolio-ana.netlify.app/' target='_blank'>{t('portfolio.btn1')}</a></button>
+            <button><a href='https://github.com/Layeska/Portafolio.git' target='_blank'>{t('portfolio.btn2')}</a></button>
+        </div>
+    </div>
+</div>
+</div>
+*/
