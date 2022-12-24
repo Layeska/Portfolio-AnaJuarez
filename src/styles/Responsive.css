@@ -66,7 +66,12 @@
     .buttons { height: 10% !important; }
 } 
 
-
+/*@media screen and (max-width: 1300px) {
+    .butonsLinks button {
+        margin-top: 2%;
+    }
+    
+}*/
 
 
 @media screen and (max-width: 1309px) {
@@ -305,6 +310,8 @@
 }
 
 
+
+
 @media screen and (max-width: 924px) {
     /*.containerHome {
         background: green;
@@ -395,6 +402,15 @@
         margin-left: 13%;
         margin-top: 13%;
     }
+
+    .container_portfolio {
+        width: 100%;
+        margin: 0;
+    }
+
+    .titlePortfolio {
+        margin-top: 10%;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -417,6 +433,18 @@
     }
 
     .banner { width: 90%; }
+}
+
+@media screen and (max-width: 726px) {
+
+    .flowers img {
+        width: 28% !important;
+    }
+
+    .saine img {
+        width: 60px;
+    }
+    
 }
 
 @media screen and (max-width: 723px) {
@@ -569,6 +597,17 @@
     }
 }
 
+@media screen and (max-width: 622px) {
+    .titlePortfolio {
+        margin-top: 13%;
+    }
+
+    .imagenesLogos {
+        overflow: hidden;
+    }
+    
+}
+
 @media screen and (max-width: 556px) {
     /*.containerAbout {
         background: slateblue;
@@ -687,6 +726,10 @@
 
     .informationGeneral .item-c div {
         font-size: 0.62rem;
+    }
+
+    .titlePortfolio {
+        margin-top: 20%;
     }
 }
 
@@ -946,6 +989,10 @@
     .informationGeneral .item-c div {
         font-size: 0.48rem;
     }*/
+
+    .titlePortfolio {
+        margin-top: 25%;
+    }
 }
 
 @media screen and (max-width: 304px) {
