@@ -3,6 +3,9 @@ import { useTranslation } from 'react-i18next'
 import Visible from '../components/Visible'
 
 import '../styles/Portfolio.css'
+import { AiFillHtml5 } from "react-icons/ai";
+import { DiCss3 } from "react-icons/di";
+import { SiJavascript } from "react-icons/si";
 
 const Portfolio = () => {
     const [t] = useTranslation('global')
@@ -78,7 +81,6 @@ const Portfolio = () => {
                     <div className='imagenesLogos'>
                         <img src="https://i.postimg.cc/bN73hhnV/css3.png" alt="" className='css'/>
                         <img src="https://i.postimg.cc/fLPQQfdh/logo-react-js.png" alt="" className='reactjs' />
-                        <img src="https://i.postimg.cc/15mR0JKv/Axios-logo.png" alt="" />
                     </div>
                     <div className='butonsLinks'>
                         <button><a href="https://github.com/Layeska/Appi-Rick.git" target={"_blank"}>Ver Código</a></button>
