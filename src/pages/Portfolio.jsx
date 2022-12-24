@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import Visible from '../components/Visible'
 
 import '../styles/Portfolio.css'
 
@@ -7,218 +8,97 @@ const Portfolio = () => {
     const [t] = useTranslation('global')
 
     return (
-        <div  id='searchClass' >
-                <input type='radio' name='filter' id='all' />
-                <label htmlFor='all'>All</label> 
-
-                <input type='radio' name='filter' id='vanillas'/>
-                <label htmlFor='vanillas'>JavaScrip Vanilla</label>
-
-                <input type='radio' name='filter' id='reacts'/>
-                <label htmlFor='reacts'>React</label>
-
-                <input type='radio' name='filter' id='react-bootstraps'/>
-                <label htmlFor='react-bootstraps'>React + Bootstrap</label>
-
-                <input type='radio' name='filter' id='react-reduxs'/>
-                <label htmlFor='react-reduxs'>React Redux</label>
-
-                <input type='radio' name='filter' id='react-axioss'/>
-                <label htmlFor='react-axioss'>React Axios</label>
-
-                <input type='radio' name='filter' id='htmls'/>
-                <label htmlFor='htmls'>Node</label>
-            
-            <div className='flip-mainContainer' id='elements' data-aos="fade-up" data-aos-duration="3000">
-                <div className='containerPortfolio'>
-                    <div className="rowContainer">
-                        
-                        {/*card 1*/}
-                        <div className="flip-cardContainer vanilla">
-                            <div className="flip-card-innerContainer">
-                                <div className="flip-card-frontContainer">
-                                    <img src='https://i.postimg.cc/fRY1ScRt/Screenshot-2022-10-19-230924.png' alt='flip-card'/>
-                                </div>
-                                <div className="flip-card-backContainer">
-                                    <div className="text">
-                                        <h3>HTML + CSS + JavaScript</h3>
-                                        <p>{t('portfolio.designer')}</p>
-                                        <button><a href='https://glassmorfismo-ana.netlify.app/' target='_blank'>{t('portfolio.btn1')}</a></button>
-                                        <button><a href='https://github.com/Layeska/Glasmorfismo.git' target='_blank'>{t('portfolio.btn2')}</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/*card 2*/}
-                        <div className="flip-cardContainer vanilla">
-                            <div className="flip-card-innerContainer">
-                                <div className="flip-card-frontContainer">
-                                    <img src='https://i.postimg.cc/zGS8YZWc/Captura-web-19-10-2022-231323-glassmorphism-ana-netlify-app.jpg' alt="flip-card" className=''/>
-                                </div>
-                                <div className="flip-card-backContainer">
-                                    <div className="text">
-                                        <h3>HTML + CSS + JavaScript </h3>
-                                        <p>{t('portfolio.designer')}</p>
-                                        <button><a href='https://glassmorfismo-ana.netlify.app/' target='_blank'>{t('portfolio.btn1')}</a></button>
-                                        <button><a href='https://github.com/Layeska/Glassmorphism-project.git'>{t('portfolio.btn2')}</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/*card 3*/}
-                        <div className="flip-cardContainer vanilla">
-                            <div className="flip-card-innerContainer">
-                                <div className="flip-card-frontContainer">
-                                    <img src='https://i.postimg.cc/VvYvqTLT/vanilla1.jpg' alt="flip-card" className=''/>
-                                </div>
-                                <div className="flip-card-backContainer">
-                                    <div className="text">
-                                        <h3>HTML + CSS + JavaScript (Fetch) </h3>
-                                        <p>{t('portfolio.designer')}</p>
-                                        <button><a href='https://glassmorphism-ana.netlify.app/'>{t('portfolio.btn1')}</a></button>
-                                        <button> <a href='https://github.com/Layeska/E-commerce.git'>{t('portfolio.btn2')}</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        {/*card 5*/}
-                        <div className="flip-cardContainer react-redux">
-                            <div className="flip-card-innerContainer">
-                                <div className="flip-card-frontContainer">
-                                    <img src='https://i.postimg.cc/3JtzX8X7/Captura-web-19-10-2022-23181-app-ana-netlify-app.jpg' alt="flip-card" className=''/>
-                                </div>
-                                <div className="flip-card-backContainer">
-                                    <div className="text">
-                                        <h3>React, Hooks (UseState, UseRef)</h3>
-                                        <p>{t('portfolio.designer')}</p>
-                                        <button><a href='https://app-ana.netlify.app/' target='_back'>{t('portfolio.btn1')}</a></button>
-                                        <button><a href='https://github.com/Layeska/Weather-Api.git' target='_back'>{t('portfolio.btn2')}</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/*card 6*/}
-                        <div className="flip-cardContainer react-axios">
-                            <div className="flip-card-innerContainer">
-                                <div className="flip-card-frontContainer">
-                                    <img src='https://i.postimg.cc/65Z67t03/users-React.jpg' alt="flip-card" className=''/>
-                                </div>
-                                <div className="flip-card-backContainer">
-                                    <div className="text">
-                                        <h3>JSX</h3>
-                                        <p>{t('portfolio.designer')}</p>
-                                        <button><a href='https://users-ana.netlify.app/' target='_black'>{t('portfolio.btn1')}</a></button>
-                                        <button><a href='https://github.com/Layeska/Users-json-React.git' target='_back'>{t('portfolio.btn2')}</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/*card 7*/}
-                        <div className="flip-cardContainer react-bootstrap">
-                            <div className="flip-card-innerContainer">
-                                <div className="flip-card-frontContainer">
-                                    <img src='https://i.postimg.cc/4NYZDZMP/react-bootstrap.jpg' alt="flip-card"/>
-                                </div>
-                                <div className="flip-card-backContainer">
-                                    <div className="text">
-                                        <h3>React, Hooks (UseState, UseRef), Axios, Bootstrap, API rest</h3>
-                                        <p>{t('portfolio.designer')}</p>
-                                        <button><a href='https://ecommerce-react-ana.netlify.app/' target='_blank'>{t('portfolio.btn1')}</a></button>
-                                        <button><a href='https://github.com/Layeska/ecommerce-React.git' target='_back'>{t('portfolio.btn2')}</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/*card 8*/}
-                        <div className="flip-cardContainer react-axios">
-                            <div className="flip-card-innerContainer">
-                                <div className="flip-card-frontContainer">
-                                    <img src='https://i.postimg.cc/VsrmTm2R/rickymorty.jpg' alt="flip-card"/>
-                                </div>
-                                <div className="flip-card-backContainer">
-                                    <div className="text">
-                                        <h3>React, API rest, Hooks (useState)</h3>
-                                        <p>{t('portfolio.designer')}</p>
-                                        <button><a href='https://appi-rick.netlify.app/' target='_blank'>{t('portfolio.btn1')}</a></button>
-                                        <button><a href='https://github.com/Layeska/Appi-Rick.git' target='_back'>{t('portfolio.btn2')}</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/*card 9*/}
-                        <div className="flip-cardContainer react-redux">
-                            <div className="flip-card-innerContainer">
-                                <div className="flip-card-frontContainer">
-                                    <img src='https://i.postimg.cc/Jnbbb52g/Screenshot-2022-10-19-232900.png' alt="flip-card"/>
-                                </div>
-                                <div className="flip-card-backContainer">
-                                    <div className="text">
-                                        <h3>React, API rest, Hooks (useState)</h3>
-                                        <p>{t('portfolio.designer')}</p>
-                                        <button><a href='https://poke-appi-ana.netlify.app/' target='_blank'>{t('portfolio.btn1')}</a></button>
-                                        <button><a href='https://github.com/Layeska/PokeAppi.git' target='_back'>{t('portfolio.btn2')}</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/*card 10*/}
-                        <div className="flip-cardContainer html">
-                            <div className="flip-card-innerContainer">
-                                <div className="flip-card-frontContainer">
-                                    <img src='https://i.postimg.cc/0Qd62tJ0/screen.jpg' alt="flip-card"/>
-                                </div>
-                                <div className="flip-card-backContainer">
-                                    <div className="text">
-                                        <h3>Node, postgreSQL, Sequelize, Express</h3>
-                                        <p>{t('portfolio.designer')}</p>
-                                        <button><a href='https://github.com/Layeska/Flowers-Ecommerce.git' target='_back'>{t('portfolio.btn2')}</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/*card 4*/}
-
-                        <div className="flip-cardContainer html">
-                            <div className="flip-card-innerContainer">
-                                <div className="flip-card-frontContainer">
-                                    <img src='https://i.postimg.cc/sXysqNGJ/Captura-web-19-10-2022-231127-project-ana-netlify-app.jpg' alt="flip-card"/>
-                                </div>
-                                <div className="flip-card-backContainer">
-                                    <div className="text">
-                                        <h3>Node, postgreSQL, Sequelize, Express</h3>
-                                        <p>{t('portfolio.designer')}</p>
-                                        <button><a href='https://project-ana.netlify.app/' target='_back'>{t('portfolio.btn1')}</a></button>
-                                        <button><a href='https://github.com/Layeska/SliderCites.git' target='_back'>{t('portfolio.btn2')}</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/*Saine*/}
-                        <div className="flip-cardContainer react-bootstrap">
-                            <div className="flip-card-innerContainer">
-                                <div className="flip-card-frontContainer">
-                                    <img src='https://i.postimg.cc/FsH5xcSK/saine.jpg' alt='flip-card' className=''/>
-                                </div>
-                                <div className="flip-card-backContainer">
-                                    <div className="text">
-                                        <h3>JSX, Redux, Bootstrap </h3>
-                                        <p>{t('portfolio.designer')}</p>
-                                        <button><a href='https://saine-clone.netlify.app/' target='_back'>{t('portfolio.btn1')}</a></button>
-                                        <button><a href='https://github.com/No-Country/c8-86-t-react-firebase.git' target='_back'>{t('portfolio.btn2')}</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <div className='container_portfolio'>
+            <h1 className='titlePortfolio'>Proyectos Realizados</h1>
+            <div className="blog-card margin">
+                <div className="meta">
+                    <div className="photo" style={{backgroundImage: "url(https://i.postimg.cc/zBgY7tDM/counter.jpg)"}}></div>
+                </div>
+                <div className="description">
+                    <h1>Contador de Palabras</h1>
+                    <h2>Cuenta palabras, oraciones y párrafos</h2>
+                    <p></p>
+                    <div className='imagenesLogos'>
+                        <img src="https://i.postimg.cc/RVJBMKsS/los3.png" alt="" />
+                    </div>
+                    <div className='butonsLinks'>
+                        <button><a href="https://github.com/Layeska/CountWords.git" target={"_blank"}>Ver Código</a></button>
+                        <button><a href="https://countword-devana.netlify.app/" target={"_blank"}>Ver Página</a></button>
                     </div>
                 </div>
             </div>
+
+            <div className="blog-card ">
+                <div className="meta">
+                    <div className="photo" style={{backgroundImage: "url(https://i.postimg.cc/zGS8YZWc/Captura-web-19-10-2022-231323-glassmorphism-ana-netlify-app.jpg)"}}></div>
+                </div>
+                <div className="description">
+                    <h1>Proyecto de Usuarios</h1>
+                    <h2>Proyecto que muestra de un archivo JSON datos de usuarios</h2>
+                    <p></p>
+                    <div className='imagenesLogos'>
+                        <img src="https://i.postimg.cc/RVJBMKsS/los3.png" alt="" />
+                    </div>
+                    <div className='butonsLinks'>
+                        <button><a href="https://github.com/Layeska/Glassmorphism-project.git" target={"_blank"}>Ver Código</a></button>
+                        <button><a href="https://glassmorphism-ana.netlify.app/" target={"_blank"}>Ver Página</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div className="blog-card ">
+                <div className="meta">
+                    <div className="photo" style={{backgroundImage: "url(https://i.postimg.cc/tRhr5qHw/Captura-web-19-10-2022-231127-project-ana-netlify-app.jpg)"}}>
+                    </div>
+                </div>
+                <div className="description">
+                    <h1>Visor de citas</h1>
+                    <h2>Proyecto que muestra citas de manera aleatoria de archivo JSON</h2>
+                    <p></p>
+                    <div className='imagenesLogos'>
+                        <img src="https://i.postimg.cc/bN73hhnV/css3.png" alt="" className='css'/>
+                        <img src="https://i.postimg.cc/fLPQQfdh/logo-react-js.png" alt="" className='reactjs' />
+                    </div>
+                    <div className='butonsLinks'>
+                        <button><a href="https://github.com/Layeska/SliderCites.git" target={"_blank"}>Ver Código</a></button>
+                        <button><a href="https://project-ana.netlify.app/" target={"_blank"}>Ver Página</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div className="blog-card ">
+                <div className="meta">
+                    <div className="photo" style={{backgroundImage: "url(https://i.postimg.cc/VsrmTm2R/rickymorty.jpg)"}}>
+                    </div>
+                </div>
+                <div className="description">
+                    <h1>Rick & Morty</h1>
+                    <h2>Muestro los datos de los personajes y un filtro por dimensión</h2>
+                    <p></p>
+                    <div className='imagenesLogos'>
+                        <img src="https://i.postimg.cc/bN73hhnV/css3.png" alt="" className='css'/>
+                        <img src="https://i.postimg.cc/fLPQQfdh/logo-react-js.png" alt="" className='reactjs' />
+                        <img src="https://i.postimg.cc/15mR0JKv/Axios-logo.png" alt="" />
+                    </div>
+                    <div className='butonsLinks'>
+                        <button><a href="https://github.com/Layeska/Appi-Rick.git" target={"_blank"}>Ver Código</a></button>
+                        <button><a href="https://appi-rick.netlify.app/" target={"_blank"}>Ver Página</a></button>
+                    </div>
+                </div>
+            </div>
+            <Visible/>
         </div>
     )
 }
 
 
 export default Portfolio
+/*
+<img src="https://i.postimg.cc/502XGX2c/html.png" alt="" />
+                <img src="https://i.postimg.cc/bN73hhnV/css3.png" alt="" className="css"/>
+                <img src="https://i.postimg.cc/pTxWrZcb/Java-Script-logo.png" alt="" />
+*/
+
 
 /*
 {/*card 1
