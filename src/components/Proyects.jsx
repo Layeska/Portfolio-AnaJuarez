@@ -14,7 +14,6 @@ const Proyect = () => {
                     <div className='imagenesLogos'>
                         <img src="https://i.postimg.cc/bN73hhnV/css3.png" alt="" className='css'/>
                         <img src="https://i.postimg.cc/fLPQQfdh/logo-react-js.png" alt="" className='reactjs' />
-                        <img src="https://i.postimg.cc/15mR0JKv/Axios-logo.png" alt="" />
                     </div>
                     <div className='butonsLinks'>
                         <button><a href="https://github.com/Layeska/Weather-Api.git" target={"_blank"}>Ver Código</a></button>
@@ -34,7 +33,6 @@ const Proyect = () => {
                     <div className='imagenesLogos'>
                         <img src="https://i.postimg.cc/bN73hhnV/css3.png" alt="" className='css'/>
                         <img src="https://i.postimg.cc/fLPQQfdh/logo-react-js.png" alt="" className='reactjs' />
-                        <img src="https://i.postimg.cc/15mR0JKv/Axios-logo.png" alt="" />
                     </div>
                     <div className='butonsLinks'>
                         <button><a href="https://github.com/Layeska/PokeAppi.git" target={"_blank"}>Ver Código</a></button>
@@ -55,7 +53,6 @@ const Proyect = () => {
                     <div className='imagenesLogos'>
                         <img src="https://i.postimg.cc/bN73hhnV/css3.png" alt="" className='css'/>
                         <img src="https://i.postimg.cc/fLPQQfdh/logo-react-js.png" alt="" className='reactjs' />
-                        <img src="https://i.postimg.cc/15mR0JKv/Axios-logo.png" alt="" />
                     </div>
                     <div className='butonsLinks'>
                         <button><a href="https://github.com/Layeska/Users-json-React.git" target={"_blank"}>Ver Código</a></button>
@@ -76,7 +73,6 @@ const Proyect = () => {
                     <div className='imagenesLogos'>
                         <img src="https://i.postimg.cc/BvWmD3Yr/Bootstrap.png" alt="" className='bootstrap'/>
                         <img src="https://i.postimg.cc/fLPQQfdh/logo-react-js.png" alt="" className='reactjs' />
-                        <img src="https://i.postimg.cc/15mR0JKv/Axios-logo.png" alt="" />
                         <img src="https://i.postimg.cc/nhc03zY7/Redux.png" alt="" className='bootstrap'/>
                     </div>
                     <div className='butonsLinks'>
@@ -123,7 +119,6 @@ const Proyect = () => {
                         <img src="https://i.postimg.cc/bN73hhnV/css3.png" alt="" className='css'/>
                         <img src="https://i.postimg.cc/fLPQQfdh/logo-react-js.png" alt="" className='reactjs' />
                         <img src="https://i.postimg.cc/BvWmD3Yr/Bootstrap.png" alt="" className='bootstrap'/>
-                        <img src="https://i.postimg.cc/15mR0JKv/Axios-logo.png" alt="" />
                     </div>
                     <div className='butonsLinks'>
                         <button><a href="https://github.com/No-Country/c8-86-t-react-firebase.git" target={"_blank"}>Ver Código</a></button>
