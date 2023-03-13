@@ -108,21 +108,20 @@ const Proyect = () => {
 
             <div className="blog-card ">
                 <div className="meta">
-                    <div className="photo" style={{backgroundImage: "url(https://i.postimg.cc/FsH5xcSK/saine.jpg)"}}>
+                    <div className="photo" style={{backgroundImage: "url(https://i.postimg.cc/RFR8FStc/stable-diffusion.png"}}>
                     </div>
                 </div>
                 <div className="description">
-                    <h1>Ecommerce Saine</h1>
-                    <h2>Proyecto realizado con un grupo conformado por roles: UX/UI, Back-End, Front-End. Yo participé en la elaboración del Front-End</h2>
-                    <ps></ps >aine
+                    <h1>stable Diffusion AI</h1>
+                    <h2>Estuve a cargo del Front End</h2>
+                    <p></p>
                     <div className='imagenesLogos saine'>
                         <img src="https://i.postimg.cc/bN73hhnV/css3.png" alt="" className='css'/>
-                        <img src="https://i.postimg.cc/fLPQQfdh/logo-react-js.png" alt="" className='reactjs' />
-                        <img src="https://i.postimg.cc/BvWmD3Yr/Bootstrap.png" alt="" className='bootstrap'/>
+                        <img src="https://i.postimg.cc/C5v84CFZ/node.png" alt="" className='css'/>
                     </div>
                     <div className='butonsLinks'>
-                        <button><a href="https://github.com/No-Country/c8-86-t-react-firebase.git" target={"_blank"}>Ver Código</a></button>
-                        <button><a href="https://saine-clone.netlify.app/" target={"_blank"}>Ver Página</a></button>
+                        <button><a href="#" target={"_blank"}>Ver Código</a></button>
+                        <button><a href="https://stablediffusionai.org/" target={"_blank"}>Ver Página</a></button>
                     </div>
                 </div>
             </div>
